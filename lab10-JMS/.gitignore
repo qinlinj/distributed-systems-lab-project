@@ -1,0 +1,5 @@
+# What to ignore...
+out/
+lib/
+*.class
+web/target/classes/ds/web/MyQueueWriter.class

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="mdb:mdb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mdb_mdb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mdb/javaeeApplication/mdb" />
+      <element id="module-output" name="mdb" />
+    </root>
+  </artifact>
+</component>

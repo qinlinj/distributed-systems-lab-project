@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>ds</groupId>
+  <artifactId>mdb</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>mdb</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+      <junit.version>5.7.1</junit.version>
+      </properties>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/jakarta.ejb/jakarta.ejb-api -->
+    <dependency>
+      <groupId>jakarta.ejb</groupId>
+      <artifactId>jakarta.ejb-api</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api -->
+    <dependency>
+      <groupId>jakarta.annotation</groupId>
+      <artifactId>jakarta.annotation-api</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/jakarta.jms/jakarta.jms-api -->
+    <dependency>
+      <groupId>jakarta.jms</groupId>
+      <artifactId>jakarta.jms-api</artifactId>
+      <version>3.0.0</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+        <plugins>
+        </plugins>
+  </build>
+</project>
